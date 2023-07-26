@@ -1,0 +1,1 @@
+console.log('“Be kind whenever possible. It is always possible.” —The 14th Dalai Lama. ')
