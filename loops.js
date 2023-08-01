@@ -46,3 +46,69 @@ while (authentic) {
         
     }
 }*/
+
+/*
+let number;
+do {
+ number = prompt("Please enter a number between 0 and 100: ");
+} while (!(number >= 0 && number < 100));*/
+
+/* // -------------------------- COUNTER ---------------------------------------------
+let counter = 0;
+do{
+    console.log(counter++);
+} while (counter <= 100 );
+*/
+
+/* // ---------FOR LOOP----------------
+for(let step=0; step<10; step++){
+    console.log(step)
+}*/
+
+ // ---------------------------NESTED LOOP------------------------------
+
+
+/*
+let arrOfArrays = [];
+for (let i = 0; i < 3; i++){
+ arrOfArrays.push([]);
+ //console.log(arrOfArrays,">1st");
+ for (let j = 0; j < 7; j++) {
+ arrOfArrays[i].push(j);
+ //console.log(arrOfArrays,">2nd");
+ }
+}
+console.table(arrOfArrays);
+*/
+
+
+/*
+let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+for (let i = 0; i < names.length; i ++){
+ if(names[i].startsWith("M")){
+ delete names[i];
+ //break;
+ continue;
+ }
+ names[i] = "hello " + names[i];
+}
+console.log(names);
+*/
+
+/*      // Your program gets stuck in an infinite loop here. Since a value gets added every
+        iteration, the length of the loop grows with every iteration and i will never be bigger
+        than or equal to length 
+let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+for (let i = 0; i < names.length; i++){
+ names.push("...")
+}*/
+
+/* // ----------------FOR OF LOOP------------------------
+let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+for (let arr of names){
+ console.log(arr);
+}
+*/
+
+
+
