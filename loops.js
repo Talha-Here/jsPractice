@@ -27,17 +27,22 @@ while (notFound && someArray.length > 0) {
  }
 }*/
 
-let name = prompt("Enter your name: ");
-let age = prompt("Enter your age: ");
-let authentic;
-while (name == "talha" && age == "21"){
-    console.log("User Authorized!!!");
-    authentic = true; 
-    // if(name == "talha" && age == "21"){
-    //     console.log("User Authorized!!!");
-    //     authentic = true; 
-    // }else{
-    //     console.log("User NOT Authorized!!!");
-    //     authentic = false; 
-    // }
-}
+
+/*------------------- PROGRAM TO CHECK IF THE USERNAME AND PASSWORD IS CORRECT OR NOT --------------------------*/
+/*
+let username = "talha";
+let password = "123"
+authentic = true
+while (authentic) {
+    input_username = prompt("Please input a valid username:")
+    input_password = prompt("Please input a valid password:")
+    authentic = false;
+    if (input_username == username && input_password == password){
+        console.log("Successful login!");
+    }
+    else{
+        console.log("Either the username or the password is incorrect,please try again")
+        authentic = true;
+        
+    }
+}*/
