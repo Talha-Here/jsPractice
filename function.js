@@ -206,6 +206,8 @@ var addFive1 = function addFive1(num) {
 
 // ========================================== EX: 6.5 ===========================================
 
+/*
+
 let value = "1000";
 (function () {
     let value = "2000"
@@ -223,6 +225,5 @@ let result = (function () {
     console.log(`My name is ${val}`);
    })("talha");
 
-   
-
+*/
 
