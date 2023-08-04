@@ -227,3 +227,4 @@ let result = (function () {
 
 */
 
+console.log("hi")
