@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1 id="display"><p>Let's find the treasure</p></h1>
+    <!-- <div id="forest">
+        <div id="tree1">
+            <div id="squirrel"></div>
+            <div id="flower"></div>
+        </div>
+        <div id="tree2">
+            <div class="shrubbery">
+                <div id="treasure">HELLO</div>
+            </div>
+            <div class="mushroom">
+                <div id="bug"></div>
+            </div>
+        </div>
+    </div> -->
+    <input id="data" type="text">
+    <button onclick="submit()">Submit</button>
+</body>
+<script>
+    let result = document.querySelector("#data")
+    function submit(){
+        console.log(document.querySelector("#display").innerText=result.value)
+        //console.log(document.querySelector("#display").innerHTML)
+        //console.log(result.value)
+    }
+    // ----
+    //console.log(document.getElementById("tree2").children[0].children[0].innerHTML);
+    //console.log(document.getElementsByClassName("mushroom"))
+    // ------- in querySelector only the first class or id is accessed  ----------
+    //console.log(document.querySelector("#treasure")) // # for id element
+    //console.log(document.querySelector(".shrubbery")) // . for class element
+
+</script>
+
+</html> 
